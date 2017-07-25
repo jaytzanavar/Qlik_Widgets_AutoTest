@@ -165,24 +165,6 @@ h1{
 
 }
 
-.liked{
-    background-color: #33cc33 !important;
-    cursor:not-allowed;
-
-}
-
-.normalImage{
-    background-image: url(../../extensions/cust-comp/img/heart.svg) ;
-    background-repeat:no-repeat;
-    background-position: center;
-
-}
-
-
-.changeImage{
-    background-image: url(../../extensions/cust-comp/img/liked.png) !important;
-}
-
 .placeholder1 .buttons .fa:hover{
     margin: 0 16px;
     background: rgb(102,102,153);
@@ -268,8 +250,8 @@ h1{
                        	<a ng-click="qlikSocial()" href="javascript: void(0)" class="fa share">
                        			<img class="imageButton" src="../../extensions/cust-comp/img/share.svg">
                        	</a>
-                        <a ng-click="qlikLike()" href="javascript: void(0)" ng-class="{'liked':likes!== 0}" class=" likebut fa share">
-                                <img ng-class="{'changeImage':likes!== 0}" class="imageButton normalImage" >
+                        <a ng-click="qlikLike()" href="javascript: void(0)" class=" likebut fa share">
+                                <img class="imageButton" src="../../extensions/cust-comp/img/heart.svg">
                         </a>
                         <div class='SocialButtons' ng-show="showSocial">
                             <a  href="javascript: void(0)" class="fa SocialButton">
