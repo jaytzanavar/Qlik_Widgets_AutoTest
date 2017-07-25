@@ -1,0 +1,289 @@
+<style type="text/css">
+	
+	
+
+.ouside{
+	color: white;
+    height: auto;
+    width: 370px;
+    background-color: #004590;
+    border: #33ccff  2px solid;
+    padding: 10px;
+
+}
+
+
+
+h1{
+
+	font-size:1.5em;
+	margin-left:3%;
+	margin-top:3%;
+	text-align:center;
+}
+
+.outside > div {
+	height: 200px;
+	width: 200px;
+	background-color:;
+	opacity: 0.9;
+	transition: opacity .55s ease-in-out;
+	-moz-transition: opacity .55s ease-in-out;
+	-webkit-transition: opacity .55s ease-in-out;
+}
+
+.placeholder1{
+	/*width: 250px;
+    height: 250px;*/
+    border-radius: 45px;
+	overflow:hidden;
+	position:relative;
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);
+	box-shadow:1px 1px 3px 0 rgba(0,0,0,0.3);
+	width: 300px;
+	display: inline-block;
+}
+
+.placeholder1 img {
+
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.placeholder1 .overly{
+	 background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.placeholder1 .buttons {
+	width: 150px;
+    position: absolute;
+    top: -100%;
+    left: 60%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.placeholder1 .buttons .fa{
+    margin: 0 16px;
+    background: rgb(256, 256, 256);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    z-index: 80;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.likebut{
+
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: relative;
+    right: -35px;
+    top: 70px;
+
+}
+
+
+
+.likes{
+    position: relative;
+    margin: 0 16px;
+    background: #D54646;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    z-index: 80;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 18px;
+    color: white;
+    right: -2px;
+
+}
+
+.liked{
+    background-color: #33cc33 !important;
+    cursor:not-allowed;
+
+}
+
+.normalImage{
+    background-image: url(../../extensions/cust-comp/img/heart.svg) ;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+
+.changeImage{
+    background-image: url(../../extensions/cust-comp/img/liked.png) !important;
+}
+
+.placeholder1 .buttons .fa:hover{
+    margin: 0 16px;
+    background: rgb(102,102,153);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    width: 42px;
+    height: 42px;
+    
+
+}
+
+
+.placeholder1:hover .buttons{
+	top:35%;
+}
+
+.placeholder1:hover .overly{
+	top:0;
+}
+
+.imageButton{
+	width:35px;
+	height: 35px;
+	position: absolute;
+	top:3px !important;
+
+}
+
+.SocialButtons{
+    position: absolute;
+    z-index: 99;
+    top: 55px;
+    width: 245px;
+    left: 32px;
+   -webkit-transition:all linear 0.5s;
+     transition:all linear 0.5s;
+
+   
+}
+
+.SocialButton{
+    display: inline-block;
+    margin-left: 0px !important;
+    
+}
+
+
+.arrow:after {
+  font-family: "Glyphicons Halflings";
+  content: "\e080";
+}
+
+
+
+
+.SocialButtons.ng-hide {
+  opacity:0;
+  top: 55px;
+  /* transform: scale(0.8); */
+}
+
+
+
+
+
+
+</style>
+
+<div ng-mouseleave="refresh()" class='ouside'>
+    <span class="likes">{{likes}}</span>
+	<h1>{{row.dimensions[0].qText}}</h1>
+	<div style='margin: 8% 8% 9% 9%' >
+		<div class="placeholder1">
+				
+				  <img src="../extensions/cust-comp/img/img1.jpg" alt="">
+                  <div class="overly"></div>
+                  <div class="buttons">
+                        <a href="javascript: void(0)" class="fa info">
+                        		<img class="imageButton" src="../../extensions/cust-comp/img/info.svg">
+                       	</a>
+                        </a>
+                       	<a ng-click="qlikSocial()" href="javascript: void(0)" class="fa share">
+                       			<img class="imageButton" src="../../extensions/cust-comp/img/share.svg">
+                       	</a>
+                        <a ng-click="qlikLike()" href="javascript: void(0)" ng-class="{'liked':likes!== 0}" class=" likebut fa share">
+                                <img ng-class="{'changeImage':likes!== 0}" class="imageButton normalImage" >
+                        </a>
+                        <div class='SocialButtons' ng-show="showSocial">
+                            <a  href="javascript: void(0)" class="fa SocialButton">
+                                    <img class="imageButton" src="../../extensions/cust-comp/img/fb.svg">
+                            </a>
+                            <a  href="javascript: void(0)" class="fa SocialButton ">
+                                    <img class="imageButton" src="../../extensions/cust-comp/img/in.svg">
+                            </a>
+                            <a   href="javascript: void(0)" class="fa SocialButton ">
+                                    <img class="imageButton" src="../../extensions/cust-comp/img/twe.svg">
+                            </a>
+                        </div>
+                       
+            	 </div>
+		</div>
+	</div>
+</div>

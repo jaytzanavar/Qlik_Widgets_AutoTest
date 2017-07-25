@@ -1,0 +1,20 @@
+@var: #004590;
+
+div{
+  height: 50px;
+  width: 50px;
+  background-color: @var;
+
+  &:hover{
+    background-color: fadeout(@var, 50%)
+  }
+}
+
+h1{
+
+	font-size:25em;
+	margin-left:3%;
+	margin-top:3%;
+}
+
+
